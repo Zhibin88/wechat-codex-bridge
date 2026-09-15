@@ -6,7 +6,7 @@
 
 - 感谢 [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat)：本项目的微信、QQ、Web 通道、消息上下文、插件体系等主要入口能力基于该项目扩展。
 - 感谢 [begonia599/CodexBridge](https://github.com/begonia599/CodexBridge)：本项目中的 `codexbridge` 服务基于该项目扩展，主要承担 OpenAI 兼容接口、Codex 调用、运行时配置和过程流转能力。
-- 特别感谢我的师兄 Wei Zhu 博士：在项目设计、运行稳定性和实际部署流程上给予了重要指导，并推动增加了线程终止自动重启、常驻守护等可靠性能力。
+- 特别感谢我的师兄Zhu 博士：在项目设计、运行稳定性和实际部署流程上给予了重要指导，并推动增加了线程终止自动重启、常驻守护等可靠性能力。
 - 感谢 [OpenAI Codex SDK](https://www.npmjs.com/package/@openai/codex-sdk)：`codexbridge` 通过该 SDK 调用 Codex thread/run 能力。
 - 感谢 [Express](https://github.com/expressjs/express)：`codexbridge` 的 HTTP 服务基于 Express。
 - 感谢 [xterm.js](https://github.com/xtermjs/xterm.js)：Web 控制台的终端/过程展示使用了 xterm.js。
